@@ -1,84 +1,107 @@
 # Minecraft Server Fork Downloads
 
-This repository contains various Python scripts which aim to make it easier to download and/or compile Minecraft server JAR files. The scripts automate the process for different Minecraft server types, including Spigot, CraftBukkit, Vanilla, and PaperMC.
-
-Please note that these scripts do **not** host any Minecraft server files themselves and are not affiliated with Mojang/Microsoft, SpigotMC, or PaperMC in any way. They simply scrape links or use tools provided by these projects to fetch the latest versions. Always ensure that you comply with the respective Terms of Service (ToS) of the server types and software used.
-
-I will definitly add other server types in the future, like quilt etc. my goal is to make them available in a simple list or page here.
-
-## Scripts Overview
-
-### 1. **Build Tools Script (SpigotMC)**
-
-This script uses the [BuildTools](https://www.spigotmc.org/wiki/buildtools/) from SpigotMC to compile all available versions of CraftBukkit and Spigot. It downloads and builds the Minecraft server JAR file(s) for each version specified in the code.
-
-#### Requirements:
-- **Java 8, Java 11, Java 16, Java 17, Java 21**: The script requires these specific versions to compile all Minecraft versions. You must manually set the paths to each Java version in the script.
-
-#### Output:
-- A runnable **Minecraft server JAR file** (CraftBukkit or Spigot) will be created in the directory from which the script is executed for **each** version, this takes a while to compile and build.
-
-#### Usage:
-1. Ensure you have all the required Java versions installed on your system.
-2. Modify the script to point to the correct Java version paths.
-3. Execute the script to compile the desired Minecraft versions.
-
-### 2. **GetBukkit.org Crawler**
-
-This script crawls [getbukkit.org](https://getbukkit.org/) for download links of various Minecraft server types (Spigot, CraftBukkit, and Vanilla). It extracts the direct download URLs for the **Vanilla** version of the Minecraft server, as this is the only one that is useful for downloading from Mojang/Microsoft. But you can also get the spigot and craftbukkit links by just uncommenting those in "server_data".
-
-#### Output:
-- A **`getbukkit-versions.json`** file containing:
-  - **Version**: The Minecraft version.
-  - **Name**: The name of the server type (e.g., Vanilla).
-  - **Type**: The server type (e.g., Vanilla).
-  - **Download Link**: A direct URL to download link (from getbukkit.org/Mojang/Microsoft).
-
-#### Usage:
-1. Run the script to gather all the direct download links
-
-### 3. **PaperMC API Crawler**
-
-This script interacts with the [PaperMC API](https://api.papermc.io) to retrieve the latest builds for PaperMC, a popular fork of Spigot. It scrapes the API for the latest build download links for each Minecraft version.
-
-#### Output:
-- A **`paper_downloads.json`** file containing:
-  - **Version**: The Minecraft version.
-  - **Download Link**: The direct download URL for the newest PaperMC build.
-
-#### Usage:
-1. Execute the script to get the latest PaperMC build download links.
-
-## Dependencies
-
-The following Python packages are required to run these scripts:
-
-- **python** (version 3.10.0)
-- **selenium**: For web scraping and automation.
-- **webdriver-manager**: To handle browser drivers for Selenium.
-
-To install the necessary dependencies, use pip:
-
-```bash
-pip install selenium webdriver-manager
-```
-
-## Important Notes
-
-- **Java Versions**: The Build Tools script requires Java 8, 11, 16, 17, and 21 to compile all Minecraft versions. Please ensure that you have these versions installed and/or configured in the script.
-- **Legal Disclaimer**:
-  - These scripts do not host any files, and the author is not affiliated with Mojang/Microsoft, SpigotMC, or PaperMC. They are just helper tools to download and compile the respective Minecraft server files.
-  - Always ensure you comply with the Terms of Service of each server software (Spigot, PaperMC, Mojang, etc.).
-  - The files produced by these scripts are solely for personal use, and the author is not responsible for any misuse or distribution of the files.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Disclaimer
-
-This is an unofficial tool designed to facilitate the process of downloading and compiling Minecraft server JAR files. This tool is provided "as is" without any guarantees or support. The use of this script is at your own risk.
+This repository contains Python scripts to simplify downloading and compiling Minecraft server JAR files. It supports different server types like Spigot, CraftBukkit, Vanilla, and PaperMC.
 
 ---
 
-**Note**: If you're unsure about the legal implications of using these scripts or downloading Minecraft server files, please refer to the official licensing and Terms of Service of each platform (Mojang, SpigotMC, PaperMC, etc.).
+## Features
+
+- Fetch and compile all minecraft versions of Spigot and CraftBukkit using spigotmc's BuildTools.
+- Download Vanilla, PaperMC, and other server JARs.
+- The json files in the repository should contain all (available) download links to directly download the files.
+
+---
+
+## Scripts Overview
+
+### 1. **Spigot Build Tools Script**
+Compiles Spigot and CraftBukkit JARs for specified Minecraft versions using [BuildTools](https://www.spigotmc.org/wiki/buildtools/).
+
+#### Requirements:
+- **Java 8, 11, 16, 17, 21** installed and configured in the script.
+- BuildTools downloaded from SpigotMC.
+
+#### Usage:
+1. Install required Java versions.
+2. Update the script with Java paths.
+3. Run the script to build JARs.
+
+---
+
+### 2. **GetBukkit.org Crawler**
+Scrapes Vanilla, Spigot, and CraftBukkit download links from [getbukkit.org](https://getbukkit.org/).
+
+#### Output:
+- Generates `getbukkit-versions.json` with version details and download links.
+
+---
+
+### 3. **PaperMC API Crawler**
+Uses the [PaperMC API](https://api.papermc.io) to get the latest PaperMC builds.
+
+#### Output:
+- Generates `paper_downloads.json` with build links for each Minecraft version.
+
+---
+
+## Dependencies
+
+- **Install required Python packages**:
+  ```bash
+  pip install selenium webdriver-manager
+  ````
+
+- **Java Versions**: 
+  - Ensure all required Java versions are installed for BuildTools, check the [script](main_buildtools_runner.py)'s "java_paths" dict for that.
+
+---
+
+## How to Build/Get server X Now?
+
+To show where or how to get the latest or some specific version you can take a look at the following pages/tools:
+
+### Vanilla
+- Head to [minecraft.net](https://www.minecraft.net/en-us/download/server) to download the latest version or check 'getbukkit_downloads.json' or 'only_vanilla_downloads.json'.
+
+### Spigot
+- Use the [BuildTools](https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar) directly or via the provided Python script.
+
+### Paper
+- Head to [PaperMC](https://papermc.io/downloads/paper) to download the latest version or check 'paper_downloads.json'.
+
+### Fabric
+- Go to [Fabric's server page](https://fabricmc.net/use/server/) to download the desired version - WIP: (check `fabric_downloads.json` for available versions.)
+
+### NeoForge
+- Visit [NeoForge's download page](https://projects.neoforged.net/neoforged/neoforge) - WIP: (check `neoforge_downloads.json` for available versions.)
+
+### Sponge
+- Download from [Sponge's official page](https://spongepowered.org/downloads/spongevanilla) - WIP: (check `sponge_downloads.json` for available versions.)
+
+### Forge
+- Head to [Forge's official site](https://files.minecraftforge.net/net/minecraftforge/forge/) - WIP: (check `forge_downloads.json` for available versions.)
+
+---
+
+## Future Plans
+- Remove vanilla scraper from getbukkit_crawler and create own vanilla_scrape script to get everything directly from mojang
+- Implement the missing server/loader types with scripts and workflows (GitHub Actions) like forge, neoforge, sponge and fabric.
+- Maybe make the buildtools-script use multiple threads to enhance the build time
+- Automatically create a unified list containing direct download links for all Minecraft versions across all server types for the easiest access!
+
+---
+
+## Important Disclaimer ⚠:  
+This repository does not host any Minecraft server files and is not affiliated with Mojang/Microsoft, SpigotMC, or PaperMC. The scripts only automate fetching or compiling files from publicly available tools or APIs.
+
+---
+
+## Reminder ⚠:
+Due to licensing issues, Spigot and CraftBukkit cannot be distributed directly. You must compile them yourself using BuildTools.
+
+
+---
+
+## License
+
+This project is licensed under the GPL-3.0 license. See the [GPL-3.0 License](LICENSE) file for details.
