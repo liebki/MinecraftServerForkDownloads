@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.firefox import GeckoDriverManager
 import time
 
 # How long to wait before doing anything after a page load
@@ -17,28 +16,13 @@ server_data = [
     # {"url": "https://getbukkit.org/download/craftbukkit", "type": "CraftBukkit"},
 ]
 
-browser_choice = (
-    input("Please choose your browser by typing (chrome or firefox): ").strip().lower()
-)
-driver = None
-
 try:
-    if browser_choice == "chrome":
-        options = webdriver.ChromeOptions()
-        options.add_argument("--headless")
-        options.add_argument("--no-sandbox")
-        driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()), options=options
-        )
-    elif browser_choice == "firefox":
-        options = webdriver.FirefoxOptions()
-        options.add_argument("--headless")
-        driver = webdriver.Firefox(
-            service=FirefoxService(GeckoDriverManager().install()), options=options
-        )
-    else:
-        print("Invalid browser choice. Please choose 'chrome' or 'firefox'.")
-        exit(1)
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    driver = webdriver.Chrome(
+        service=ChromeService(ChromeDriverManager().install()), options=options
+    )
 
 except Exception as e:
     print(f"Error initializing the WebDriver: {e}")
