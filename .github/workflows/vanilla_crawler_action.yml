@@ -3,7 +3,7 @@ name: Run main_vanilla_crawler.py and create release_vanilla_downloads.json and 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *' # every day at four (six)
+    - cron: '0 4 */3 * *' # every day at four (six)
 
 jobs:
   build:

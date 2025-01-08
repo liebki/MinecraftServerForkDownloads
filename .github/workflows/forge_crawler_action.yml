@@ -1,4 +1,4 @@
-name: Run main_papermc_crawler.py and create papermc direct download links
+name: Run main_forge_crawler.py and create forge_downloads.json
 
 on:
   workflow_dispatch:
@@ -10,29 +10,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: checkout repo content
+      - name: Checkout repo content
         uses: actions/checkout@v4
 
-      - name: setup python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
           architecture: "x64"
-          
-      - name: install python packages
+
+      - name: Install required Python packages
         run: |
           python -m pip install --upgrade pip
-          pip install requests
-          
+          pip install selenium webdriver-manager
+
+      - name: Install Chrome and chromedriver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
       - name: execute py script
-        run: python main_papermc_crawler.py
+        run: python main_forge_crawler.py
           
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated papermc download links" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "updated forge download links" --allow-empty)
           
       - name: push changes
         uses: ad-m/github-push-action@master

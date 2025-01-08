@@ -1,6 +1,14 @@
 # Minecraft Server Fork Direct Download
 
-This repository contains various Python scripts for easy Minecraft server download and compilation. It automatically lists the latest versions of popular Minecraft server types, including Vanilla, PaperMC and Sponge on a daily basis, with additional server types to follow.
+This repository contains various Python scripts for easy Minecraft server download and compilation. It automatically scrapes and lists the latest versions of popular Minecraft server types, including Vanilla, PaperMC and Sponge every three days, with additional server types to follow.
+
+---
+
+### I own said Tools/Pages/APIs etc. and want the scraping to stop!
+- The json files are automatically built every three days by workflows, which scrape the data, if you are the owner of one of those APIs/Pages/Tools and want me to remove/stop the usage/scraping of said API/Page/Tool, please contact me I will take it down without hesitation!
+- Mail: ciranuxdev
+- Host: gmail
+- Subject: "Takedown/Scraping Stop"
 
 ---
 
@@ -68,15 +76,12 @@ Uses the [Sponge API](https://dl-api.spongepowered.org/v2) to get the latest bui
 
 ## How to Build/Get server X Now?
 
-To show where or how to get the latest or some specific version you can take a look at the following pages/tools:
+- To show where or how to get the latest or some specific version you can take a look at the following pages/tools:
 
 ### Vanilla (Done)
 - Head to [minecraft.net](https://www.minecraft.net/en-us/download/server) to download the latest version or check:
   - Releases: '[release_vanilla_downloads.json](release_vanilla_downloads.json)'
   - Snapshots: '[snapshot_vanilla_downloads.json](snapshot_vanilla_downloads.json)'.
-
-### Spigot ([DMCA](#dmca-bukkit))
-- Use the [BuildTools](https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar) directly or via the provided Python script to build all versions available.
 
 ### Paper (Done)
 - Head to [PaperMC](https://papermc.io/downloads/paper) to download the latest version or check:
@@ -84,16 +89,20 @@ To show where or how to get the latest or some specific version you can take a l
 
 ### Sponge (Done)
 - Download from [Sponge's official page](https://spongepowered.org/downloads/spongevanilla) to download different versions or check:
-  - '[sponge_downloads.json](sponge_downloads.json)' (I didnt test the files for working, if something is wrong open an issue please).
+  - '[sponge_downloads.json](sponge_downloads.json)' (I didnt test the files, if something is wrong open an issue please).
+
+### Forge (Done)
+- Head to [Forge's official site](https://files.minecraftforge.net/net/minecraftforge/forge/) to download different versions or check:
+  - '[forge_downloads.json](forge_downloads.json)' (I didnt test the files, if something is wrong open an issue please).
+
+### Spigot ([DMCA](#dmca-bukkit))
+- Use the [BuildTools](https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar) directly or via the provided Python script to build all versions available.
 
 ### Fabric (WIP)
 - Go to [Fabric's server page](https://fabricmc.net/use/server/) to download the desired version - WIP: (check `fabric_downloads.json` for available versions.)
 
 ### NeoForge (WIP)
 - Visit [NeoForge's download page](https://projects.neoforged.net/neoforged/neoforge) - WIP: (check `neoforge_downloads.json` for available versions.)
-
-### Forge (WIP)
-- Head to [Forge's official site](https://files.minecraftforge.net/net/minecraftforge/forge/) - WIP: (check `forge_downloads.json` for available versions.)
 
 ---
 

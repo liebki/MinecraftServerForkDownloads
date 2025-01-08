@@ -3,7 +3,7 @@ name: Run main_sponge_crawler.py and create sponge_downloads.json
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *' # every day at four (six)
+    - cron: '0 4 */3 * *' # every day at four (six)
 
 jobs:
   build:
