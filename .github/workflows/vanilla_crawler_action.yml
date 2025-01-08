@@ -1,4 +1,4 @@
-name: Run main_getbukkit_crawler.py and create getbukkit direct download links
+name: Run main_vanilla_crawler.py and create release_vanilla_downloads.json and snapshot_vanilla_downloads.json
 
 on:
   workflow_dispatch:
@@ -22,22 +22,17 @@ jobs:
       - name: Install required Python packages
         run: |
           python -m pip install --upgrade pip
-          pip install selenium webdriver-manager
-
-      - name: Install Chrome and chromedriver
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
+          pip install requests
 
       - name: execute py script
-        run: python main_getbukkit_crawler.py
+        run: python main_vanilla_crawler.py
           
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated getbukkit download links" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "updated vanilla download links" --allow-empty)
           
       - name: push changes
         uses: ad-m/github-push-action@master

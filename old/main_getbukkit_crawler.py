@@ -11,9 +11,9 @@ TIME_PAGELOAD = 2
 
 # If getbukkit.org ever adds new pages with the same structure, they could be added here
 server_data = [
-    # {"url": "https://getbukkit.org/download/spigot", "type": "Spigot"},
+    {"url": "https://getbukkit.org/download/spigot", "type": "Spigot"},
     {"url": "https://getbukkit.org/download/vanilla", "type": "Vanilla"},
-    # {"url": "https://getbukkit.org/download/craftbukkit", "type": "CraftBukkit"},
+    {"url": "https://getbukkit.org/download/craftbukkit", "type": "CraftBukkit"},
 ]
 
 try:

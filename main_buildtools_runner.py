@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-BUILDTOOLS_LOCATION = "/Users/kim/Downloads/BuildTools.jar"
+BUILDTOOLS_LOCATION = "/Users/USER/Folder/BuildTools.jar"
 COMMAND_TEMPLATE = "{java_path} -Xms512M -jar {build_tools} --nogui --compile {compile_type} --rev {version}"
 
 # List of minecraft versions
