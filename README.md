@@ -1,13 +1,13 @@
-# Minecraft Server Fork Downloads
+# Minecraft Server Fork Direct Download
 
-This repository contains Python scripts to simplify downloading and compiling Minecraft server JAR files. It supports different server types like Spigot, CraftBukkit, Vanilla, and PaperMC.
+This repository contains various Python scripts for easy Minecraft server download and compilation. It automatically lists the latest versions of popular Minecraft server types, including Vanilla, PaperMC and Sponge on a daily basis, with additional server types to follow.
 
 ---
 
 ## Features
 
 - Fetch and compile all available minecraft versions of Spigot and CraftBukkit using spigotmc's BuildTools.
-- Download Vanilla, PaperMC, and other server JARs easily using their direct files (look at [How to Build/Get server X Now?](#how-to-buildget-server-x-now))
+- Download Vanilla, PaperMC, sponge and soon other server JARs easily using their direct files (look at [How to Build/Get server X Now?](#how-to-buildget-server-x-now))
 - The json files in the repository should contain all (available) download links to directly download the files.
 
 ---
@@ -34,9 +34,10 @@ Fetches Minecraft release version information and identifies available server do
 #### Output:
 - Generates 'release_vanilla_downloads.json' file with all server.jar files directly downloadable from mojang for each version (only full releases).
 - For the snapshots look into the 'snapshot_vanilla_downloads.json' file to download those directly from mojang.
+
 ---
 
-### 3. **PaperMC API Crawler**
+### 3. **PaperMC Crawler**
 Uses the [PaperMC API](https://api.papermc.io) to get the latest PaperMC builds.
 
 #### Output:
@@ -44,14 +45,23 @@ Uses the [PaperMC API](https://api.papermc.io) to get the latest PaperMC builds.
 
 ---
 
+### 4. **Sponge Crawler**
+Uses the [Sponge API](https://dl-api.spongepowered.org/v2) to get the latest builds.
+
+#### Output:
+- Generates `sponge_downloads.json` with build links for each (available) Minecraft version.
+
+---
+
 ## Dependencies
 
 - **Install required Python packages**:
-  ```bash
-  pip install selenium webdriver-manager
-  ````
+  - ```pip install selenium webdriver-manager requests```
+  - selenium & webdriver-manager are needed for [getbukkit_crawler](old/main_getbukkit_crawler.py)
+  - requests is used in every API-crawler script
 
-- **Java Versions**: 
+- **Java Versions**:
+  - Only for the buildtools script needed
   - Ensure all required Java versions are installed for BuildTools, check the [script](main_buildtools_runner.py)'s "java_paths" dict for that.
 
 ---
@@ -72,14 +82,15 @@ To show where or how to get the latest or some specific version you can take a l
 - Head to [PaperMC](https://papermc.io/downloads/paper) to download the latest version or check:
   - '[paper_downloads.json](paper_downloads.json)'.
 
+### Sponge (Done)
+- Download from [Sponge's official page](https://spongepowered.org/downloads/spongevanilla) to download different versions or check:
+  - '[sponge_downloads.json](sponge_downloads.json)' (I didnt test the files for working, if something is wrong open an issue please).
+
 ### Fabric (WIP)
 - Go to [Fabric's server page](https://fabricmc.net/use/server/) to download the desired version - WIP: (check `fabric_downloads.json` for available versions.)
 
 ### NeoForge (WIP)
 - Visit [NeoForge's download page](https://projects.neoforged.net/neoforged/neoforge) - WIP: (check `neoforge_downloads.json` for available versions.)
-
-### Sponge (WIP)
-- Download from [Sponge's official page](https://spongepowered.org/downloads/spongevanilla) - WIP: (check `sponge_downloads.json` for available versions.)
 
 ### Forge (WIP)
 - Head to [Forge's official site](https://files.minecraftforge.net/net/minecraftforge/forge/) - WIP: (check `forge_downloads.json` for available versions.)
@@ -87,9 +98,11 @@ To show where or how to get the latest or some specific version you can take a l
 ---
 
 ## Future Plans
-- Implement the missing server/loader types with scripts and workflows (GitHub Actions) like forge, neoforge, sponge and fabric.
-- Maybe make the buildtools-script use multiple threads to enhance the build time
+- Implement the missing server/loader types with scripts and workflows (GitHub Actions) like forge, neoforge and fabric.
+- Maybe make the buildtools-script use multiple threads to enhance the build time.
 - Automatically create a unified list containing direct download links for all Minecraft versions across all server types for the easiest access!
+- Add auto download of newest buildtools to buildtools_script.
+- Add automatic retrieval of all minecraft versions for all scripts that are hard-coded right now.
 
 ---
 

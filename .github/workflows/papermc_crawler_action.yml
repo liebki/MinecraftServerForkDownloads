@@ -3,7 +3,7 @@ name: Run main_papermc_crawler.py and create papermc direct download links
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *' # every day at eight
+    - cron: '0 4 * * *' # every day at four (six)
 
 jobs:
   build:

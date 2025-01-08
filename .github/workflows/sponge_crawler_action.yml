@@ -1,4 +1,4 @@
-name: Run main_vanilla_crawler.py and create release_vanilla_downloads.json and snapshot_vanilla_downloads.json
+name: Run main_sponge_crawler.py and create sponge_downloads.json
 
 on:
   workflow_dispatch:
@@ -25,14 +25,14 @@ jobs:
           pip install requests
 
       - name: execute py script
-        run: python main_vanilla_crawler.py
+        run: python main_sponge_crawler.py
           
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated vanilla download links" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "updated sponge download links" --allow-empty)
           
       - name: push changes
         uses: ad-m/github-push-action@master
