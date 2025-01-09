@@ -1,0 +1,1430 @@
+[
+    {
+        "minecraft_version": "25w02a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/25w02a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.4-rc3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4-rc3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.4-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.4-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.4-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.4-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.4-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w46a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w46a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w45a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w45a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w44a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w44a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.2-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.2-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.2-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.2-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.2-pre5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.2-pre5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.2-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.2-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.2-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.2-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.2-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.2-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.2-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.2-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w40a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w40a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w39a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w39a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w38a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w38a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w37a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w37a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w36a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w36a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w35a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w35a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w34a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w34a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w33a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w33a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21.1-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.21-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.21-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w21b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w21b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w21a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w21a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w20a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w20a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w19b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w19b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w19a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w19a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w18a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w18a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.6-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.6-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.5-rc3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.5-rc3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.5-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.5-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.5-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.5-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.5-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.5-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.5-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.5-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.5-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.5-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.5-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.5-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w14a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w14a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w14potato",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w14potato/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w14potato_original",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w14potato_original/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w13a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w13a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w12a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w12a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w11a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w11a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w10a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w10a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w09a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w09a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w07a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w07a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w06a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w06a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w05b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w05b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w05a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w05a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w04a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w04a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w03b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w03b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "24w03a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/24w03a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w51b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w51b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w51a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w51a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.4-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.4-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.3-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.3-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.3-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.3-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.3-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.3-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.3-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.3-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.3-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.3-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w46a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w46a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w45a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w45a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w44a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w44a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w43b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w43b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w43a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w43a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w42a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w42a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w41a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w41a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w40a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w40a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.2-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.2-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.2-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.2-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.2-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.2-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.2-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.2-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.2-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.2-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.2-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.2-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w35a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w35a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w33a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w33a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w32a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w32a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w31a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w31a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20.1-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20-pre7",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20-pre7/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20-pre6",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20-pre6/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20-pre5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20-pre5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.20-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.20-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w18a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w18a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w17a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w17a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w16a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w16a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w14a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w14a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w13a_or_b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w13a_or_b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w13a_or_b_original",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w13a_or_b_original/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w13a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w13a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w12a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w12a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.4-rc3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.4-rc3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.4-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.4-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.4-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.4-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.4-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.4-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.4-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.4-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.4-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.4-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.4-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.4-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w07a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w07a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w06a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w06a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w05a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w05a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w04a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w04a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "23w03a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/23w03a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.3-rc3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.3-rc3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.3-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.3-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.3-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.3-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.3-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.3-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.3-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.3-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.3-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.3-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w46a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w46a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w45a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w45a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w44a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w44a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w43a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w43a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w42a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w42a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.2-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.2-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.2-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.2-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.1-rc3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.1-rc3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.1-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.1-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.1-pre6",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.1-pre6/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.1-pre5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.1-pre5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.1-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.1-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.1-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.1-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.1-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.1-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.1-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.1-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19.1-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19.1-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w24a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w24a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19-pre5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19-pre5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w19a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w19a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w18a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w18a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w17a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w17a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w16b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w16b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w16a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w16a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w15a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w15a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w14a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w14a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w13oneblockatatime",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w13oneblockatatime/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w13a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w13a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w12a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w12a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w11a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w11a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18.2-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18.2-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18.2-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18.2-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18.2-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18.2-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18.2-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18.2-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.19_deep_dark_experimental_snapshot-1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.19_deep_dark_experimental_snapshot-1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w07a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w07a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w06a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w06a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w05a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w05a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "22w03a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/22w03a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18.1-rc3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18.1-rc3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18.1-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18.1-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18.1-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18.1-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18.1-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18.1-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-rc4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-rc4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-rc3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-rc3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-pre8",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-pre8/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-pre7",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-pre7/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-pre6",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-pre6/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-pre5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-pre5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w44a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w44a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w43a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w43a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w42a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w42a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w41a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w41a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w40a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w40a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w39a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w39a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w38a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w38a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w37a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w37a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18_experimental-snapshot-7",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18_experimental-snapshot-7/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18_experimental-snapshot-6",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18_experimental-snapshot-6/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18_experimental-snapshot-5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18_experimental-snapshot-5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18_experimental-snapshot-4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18_experimental-snapshot-4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18_experimental-snapshot-3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18_experimental-snapshot-3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18_experimental-snapshot-2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18_experimental-snapshot-2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.18_experimental-snapshot-1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.18_experimental-snapshot-1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17.1-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17.1-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17.1-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17.1-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17.1-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17.1-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17.1-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17.1-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17.1-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17.1-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17-pre5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17-pre5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.17-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.17-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w20a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w20a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w19a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w19a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w18a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w18a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w17a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w17a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w16a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w16a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w15a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w15a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w14a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w14a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w13a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w13a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w11a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w11a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w10a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w10a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w08b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w08b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w08a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w08a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w07a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w07a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w06a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w06a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w05b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w05b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w05a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w05a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "21w03a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/21w03a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.5-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.5-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w51a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w51a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w49a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w49a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w48a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w48a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w46a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w46a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w45a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w45a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.4-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.4-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.4-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.4-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.4-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.4-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.3-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.3-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16_combat-3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16_combat-3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.2-rc2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.2-rc2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.2-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.2-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.2-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.2-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.2-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.2-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16.2-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16.2-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w30a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w30a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w29a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w29a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w28a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w28a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w27a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w27a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16-rc1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16-rc1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16-pre8",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16-pre8/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16-pre7",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16-pre7/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16-pre6",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16-pre6/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16-pre5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16-pre5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.16-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.16-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w22a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w22a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w21a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w21a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w20b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w20b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w20a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w20a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w19a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w19a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w18a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w18a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w17a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w17a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w16a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w16a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w15a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w15a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w14a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w14a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w14infinite",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w14infinite/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w13b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w13b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w13a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w13a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w12a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w12a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w11a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w11a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w10a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w10a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w09a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w09a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w08a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w08a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w07a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w07a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "20w06a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/20w06a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15.2-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15.2-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15.2-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15.2-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15.1-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15.1-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15-pre7",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15-pre7/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15-pre6",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15-pre6/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15-pre5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15-pre5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15_combat-1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15_combat-1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.15-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.15-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w46b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w46b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w46a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w46a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w45b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w45b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w45a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w45a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14_combat-3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14_combat-3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w44a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w44a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w42a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w42a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w41a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w41a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w40a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w40a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w39a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w39a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w38b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w38b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w38a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w38a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w37a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w37a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w36a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w36a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w35a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w35a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w34a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w34a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14_combat-0",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14_combat-0/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.4-pre7",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.4-pre7/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.4-pre6",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.4-pre6/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.4-pre5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.4-pre5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.4-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.4-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.4-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.4-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.4-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.4-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.4-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.4-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14_combat-212796",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14_combat-212796/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.3-pre4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.3-pre4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.3-pre3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.3-pre3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.3-pre2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.3-pre2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.3-pre1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.3-pre1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.2 Pre-Release 4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.2 Pre-Release 4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.2 Pre-Release 3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.2 Pre-Release 3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.2 Pre-Release 2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.2 Pre-Release 2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.2 Pre-Release 1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.2 Pre-Release 1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.1 Pre-Release 2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.1 Pre-Release 2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14.1 Pre-Release 1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14.1 Pre-Release 1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14 Pre-Release 5",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14 Pre-Release 5/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14 Pre-Release 4",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14 Pre-Release 4/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14 Pre-Release 3",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14 Pre-Release 3/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14 Pre-Release 2",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14 Pre-Release 2/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "1.14 Pre-Release 1",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/1.14 Pre-Release 1/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w14b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w14b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w14a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w14a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "3D Shareware v1.34",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/3D Shareware v1.34/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w13b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w13b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w13a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w13a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w12b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w12b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w12a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w12a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w11b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w11b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w11a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w11a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w09a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w09a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w08b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w08b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w08a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w08a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w07a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w07a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w06a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w06a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w05a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w05a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w04b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w04b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w04a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w04a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w03c",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w03c/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w03b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w03b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w03a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w03a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "19w02a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/19w02a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w50a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w50a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w49a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w49a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w48b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w48b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w48a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w48a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w47b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w47b/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w47a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w47a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w46a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w46a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w45a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w45a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w44a",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w44a/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w43c",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w43c/0.16.10//1.0.1/server/jar"
+    },
+    {
+        "minecraft_version": "18w43b",
+        "download_url": "https://meta.fabricmc.net/v2/versions/loader/18w43b/0.16.10//1.0.1/server/jar"
+    }
+]

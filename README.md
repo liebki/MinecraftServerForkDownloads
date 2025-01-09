@@ -1,6 +1,6 @@
 # Minecraft Server Fork Direct Download
 
-This repository contains various Python scripts for easy Minecraft server download and compilation. It automatically scrapes and lists the latest versions of popular Minecraft server types, including Vanilla, PaperMC and Sponge every three days, with additional server types to follow.
+This repository contains various Python scripts for easy Minecraft server download and compilation. It automatically scrapes and lists the latest versions of popular Minecraft server types, including Vanilla, PaperMC, Fabric and Sponge every three days, with additional server types to follow.
 
 ---
 
@@ -61,6 +61,14 @@ Uses the [Sponge API](https://dl-api.spongepowered.org/v2) to get the latest bui
 
 ---
 
+### 4. **Fabric Crawler**
+Uses the [Fabric API](https://meta2.fabricmc.net/) to get the latest builds.
+
+#### Output:
+- Generates `release_fabric_downloads.json` and `snapshot_fabric_downloads.json` with build links for each (available) Minecraft version.
+
+---
+
 ## Dependencies
 
 - **Install required Python packages**:
@@ -95,11 +103,13 @@ Uses the [Sponge API](https://dl-api.spongepowered.org/v2) to get the latest bui
 - Head to [Forge's official site](https://files.minecraftforge.net/net/minecraftforge/forge/) to download different versions or check:
   - '[forge_downloads.json](forge_downloads.json)' (I didnt test the files, if something is wrong open an issue please).
 
+### Fabric (Done)
+- Go to [Fabric's server page](https://fabricmc.net/use/server/) to download the latest version or check:
+  - Releases: '[release_fabric_downloads.json](release_fabric_downloads.json)'
+  - Snapshots: '[snapshot_fabric_downloads.json](snapshot_fabric_downloads.json)'.
+  
 ### Spigot ([DMCA](#dmca-bukkit))
 - Use the [BuildTools](https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar) directly or via the provided Python script to build all versions available.
-
-### Fabric (WIP)
-- Go to [Fabric's server page](https://fabricmc.net/use/server/) to download the desired version - WIP: (check `fabric_downloads.json` for available versions.)
 
 ### NeoForge (WIP)
 - Visit [NeoForge's download page](https://projects.neoforged.net/neoforged/neoforge) - WIP: (check `neoforge_downloads.json` for available versions.)
