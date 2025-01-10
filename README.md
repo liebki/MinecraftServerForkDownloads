@@ -34,8 +34,8 @@ This repository contains various Python scripts for easy Minecraft server downlo
 | **Paper**     | Download the latest version.                          | [PaperMC Official Page](https://papermc.io/downloads/paper)                                                         |
 | **Sponge**    | Download the latest or specific versions.                          | [Sponge Official Page](https://spongepowered.org/downloads/spongevanilla)                             |
 | **Forge**     | Download the latest or specific versions.                          | [Forge Official Site](https://files.minecraftforge.net/net/minecraftforge/forge/)                     |
-| **Fabric**    | Download the latest or specific versions.             | [Fabric Server Page](https://fabricmc.net/use/server/)                                                |
-| **Spigot**    | [Use Buildtools](https://www.spigotmc.org/wiki/buildtools)                  | [Use Buildtools](https://www.spigotmc.org/wiki/buildtools) |
+| **Fabric**    | Download the latest or specific versions.             | [Fabric Official Page](https://fabricmc.net/use/server/)                                                |
+| **Spigot**    | [Use Buildtools](https://www.spigotmc.org/wiki/buildtools)                  | [SpigotMC Official Page](https://spigotmc.org) |
 | **NeoForge**  | Download the latest or specific versions.        | [NeoForge Official Page](https://projects.neoforged.net/neoforged/neoforge)                           |
 | **Purpur**  | Download the latest or specific versions.        | [PurpurMC Official Page](https://purpurmc.org/download/purpur/)                           |
 
