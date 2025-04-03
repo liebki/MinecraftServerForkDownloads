@@ -1,7 +1,13 @@
-import os
+"""Simple script to build all spigot versions using the buildtools for all mc-versions."""
+
+# pylint: disable=C0301,W0621
+
 import subprocess
 
-BUILDTOOLS_LOCATION = "/Users/USER/Folder/BuildTools.jar"
+# Location of the BuildTools.jar file
+BUILDTOOLS_LOCATION = "BuildTools.jar"
+
+# Command to compile minecraft version
 COMMAND_TEMPLATE = "{java_path} -Xms512M -jar {build_tools} --nogui --compile {compile_type} --rev {version}"
 
 # List of minecraft versions
@@ -60,6 +66,7 @@ versions = [
     "1.21.2",
     "1.21.3",
     "1.21.4",
+    "1.21.5",
 ]
 
 # Minecraft versions with their respective java runtime version
@@ -118,27 +125,28 @@ java_requirements = {
     "1.21.2": "21",
     "1.21.3": "21",
     "1.21.4": "21",
+    "1.21.5": "21",
 }
 
-# Java paths for 8, 11, 16, 17 and 21 which need to be set
+# Java paths for the versions 8, 11, 16, 17 and 21 which need to be set by you
 java_paths = {
-    "8": "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/java",  # Set the actual path to Java 8
-    "11": "/Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java",  # Set the actual path to Java 11
-    "16": "/Library/Java/JavaVirtualMachines/temurin-16.jdk/Contents/Home/bin/java",  # Set the actual path to Java 16
-    "17": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java",  # Set the actual path to Java 17
-    "21": "/Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home/bin/java",  # Set the actual path to Java 21
+    "8": "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/java",
+    "11": "/Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java",
+    "16": "/Library/Java/JavaVirtualMachines/temurin-16.jdk/Contents/Home/bin/java",
+    "17": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java",
+    "21": "/Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home/bin/java",
 }
 
 
-def run_command(command: str):
+def run_command(run_command: str):
     """Method to call subprocess
 
     Args:
         command (str): The command to execute
     """
     try:
-        print(f"Running command: {command}")
-        subprocess.run(command, shell=True, check=True)
+        print(f"Running command: {run_command}")
+        subprocess.run(run_command, shell=True, check=True)
     except subprocess.CalledProcessError as e:
         print(f"Error while building: {e}")
 
@@ -149,10 +157,10 @@ for version in versions:
     if required_java_version and java_paths.get(required_java_version):
         java_path = java_paths[required_java_version]
         print(
-            f"Trying to build minecraft version {version} with Java version {required_java_version}:"
+            f"Trying to build minecraft V{version} with Java V{required_java_version}:"
         )
 
-        # Compiling each version for craftbukkit & spigot:
+        # Command execution
         for compile_type in ["craftbukkit", "spigot"]:
             command = COMMAND_TEMPLATE.format(
                 java_path=java_path,
@@ -160,7 +168,7 @@ for version in versions:
                 compile_type=compile_type,
                 version=version,
             )
-            run_command(command)
+            run_command(run_command=command)
     else:
         print(
             f"Skipping minecraft version {version} as the required Java version ({required_java_version}) is not available."

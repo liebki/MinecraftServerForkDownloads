@@ -1,11 +1,10 @@
-"""
-This script simply uses the API of mojang to get all versions available,
-check if they have server files or not and then creates two files which are
-in the repository which contain all direct download links for all versions.
-"""
+"""Simple script to get all vanilla server jar direct download links."""
 
-import requests
+# pylint: disable=C0301
+
 import json
+import sys
+import requests
 
 MOJANG_MANIFEST_URL = "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
 
@@ -20,10 +19,11 @@ def fetch_json(url: str):
     Returns:
         dict: Parsed JSON data from the response.
     """
-    response = requests.get(url)
+    response = requests.get(url=url, timeout=120)
     if response.status_code != 200:
         print(f"Error: Failed to fetch data from {url}")
-        exit()
+        sys.exit(1)
+
     return response.json()
 
 
@@ -35,8 +35,9 @@ def save_to_json(data, filename: str):
         data (_type_): The data to write to the file.
         filename (str): The name of the output file.
     """
-    with open(filename, "w") as json_file:
+    with open(file=filename, mode="w", encoding="utf-8") as json_file:
         json.dump(data, json_file, indent=4)
+
     print(f"Download links saved to {filename}")
 
 
@@ -98,9 +99,8 @@ def get_server_urls(vanilla_asset_urls):
 
 
 def main():
-    """
-    Main function to gather version data, filter releases, and save server URLs.
-    """
+    """Main which executes everything."""
+
     print("Trying to gather all versions available in manifestv2 file:")
     manifest_data = fetch_json(MOJANG_MANIFEST_URL)
 

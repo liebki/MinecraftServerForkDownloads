@@ -1,0 +1,4 @@
+requests
+selenium
+webdriver_manager
+pylint

@@ -1,5 +1,7 @@
-import requests
+"""Simple script to get all fabric server jar direct download links."""
+
 import json
+import requests
 
 
 def fetch_data(url: str) -> list:
@@ -12,8 +14,9 @@ def fetch_data(url: str) -> list:
     Returns:
         list: The JSON data as a list.
     """
-    response = requests.get(url)
+    response = requests.get(url=url, timeout=120)
     response.raise_for_status()
+
     return response.json()
 
 
@@ -69,12 +72,14 @@ def save_to_json(data: dict, filename: str):
         data (dict): The data to write to the file.
         filename (str): The name of the output file.
     """
-    with open(filename, "w") as json_file:
+    with open(file=filename, mode="w", encoding="utf-8") as json_file:
         json.dump(data, json_file, indent=4)
+
     print(f"Download links saved to {filename}")
 
 
 def main():
+    """Main which executes everything."""
     game_versions = fetch_data("https://meta.fabricmc.net/v2/versions/game")
     loader_versions = fetch_data("https://meta.fabricmc.net/v2/versions/loader")
     installer_versions = fetch_data("https://meta.fabricmc.net/v2/versions/installer")
@@ -95,6 +100,7 @@ def main():
 
     save_to_json(stable_downloads, "release_fabric_downloads.json")
     save_to_json(non_stable_downloads, "snapshot_fabric_downloads.json")
+
     print("done")
 
 

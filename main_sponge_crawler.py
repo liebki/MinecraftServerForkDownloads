@@ -1,5 +1,9 @@
-import requests
+"""Simple script to get all forge server jar direct download links using selenium."""
+
+# pylint: disable=C0301
+
 import json
+import requests
 
 BASE_SPONGE_URL = "https://dl-api.spongepowered.org/v2/groups/org.spongepowered/artifacts/spongevanilla"
 VERSIONS_SPONGE_URL_TEMP = "https://dl-api.spongepowered.org/v2/groups/org.spongepowered/artifacts/spongevanilla/versions?limit=1&tags=minecraft:{mc_version}"
@@ -13,8 +17,9 @@ def save_to_json(data, filename: str):
         data (_type_): The data to write to the file.
         filename (str): The name of the output file.
     """
-    with open(filename, "w") as json_file:
+    with open(file=filename, mode="w", encoding="utf-8") as json_file:
         json.dump(data, json_file, indent=4)
+
     print(f"Download links saved to {filename}")
 
 
@@ -27,12 +32,12 @@ def get_json(url: str):
     Returns:
         _type_: _description_
     """
-    response = requests.get(url)
+    response = requests.get(url=url, timeout=120)
     if response.status_code == 200:
         return response.json()
-    else:
-        print(f"Error fetching URL: {url}")
-        return None
+
+    print(f"Error fetching URL: {url}")
+    return None
 
 
 def filter_versions(minecraft_versions: list[str]) -> list[str]:
@@ -59,8 +64,8 @@ def construct_download_url(artifact: str, mc_version: str) -> str:
     """
     if mc_version in ["1.8", "1.8.9", "1.9", "1.9.4", "1.10.2", "1.11", "1.11.2"]:
         return f"https://repo.spongepowered.org/repository/legacy-transfer/org/spongepowered/spongevanilla/{artifact}/spongevanilla-{artifact}.jar"
-    else:
-        return f"https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/{artifact}/spongevanilla-{artifact}-universal.jar"
+
+    return f"https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/{artifact}/spongevanilla-{artifact}-universal.jar"
 
 
 def process_minecraft_versions():
@@ -93,5 +98,10 @@ def process_minecraft_versions():
     save_to_json(sponge_downloads, "sponge_downloads.json")
 
 
-if __name__ == "__main__":
+def main():
+    """Main which executes everything."""
     process_minecraft_versions()
+
+
+if __name__ == "__main__":
+    main()

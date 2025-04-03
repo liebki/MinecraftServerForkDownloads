@@ -4,14 +4,6 @@ This repository contains various Python scripts for easy Minecraft server downlo
 
 ---
 
-### I own said Tools/Pages/APIs etc. and want the scraping to stop!
-- The json files are automatically built every three days by workflows, which scrape the data, if you are the owner of one of those APIs/Pages/Tools and want me to remove/stop the usage/scraping of said API/Page/Tool, please contact me I will take it down without hesitation!
-- Mail: ciranuxdev
-- Host: gmail
-- Subject: "Takedown/Scraping Stop"
-
----
-
 ## Repository Resources to download (all versions)
 
 - Or simply visit [kimsforkcenter.pages.dev](https://kimsforkcenter.pages.dev) which aggregates all those files in a UI to better scroll trough them.
@@ -38,6 +30,14 @@ This repository contains various Python scripts for easy Minecraft server downlo
 | **Spigot**    | [Use Buildtools](https://www.spigotmc.org/wiki/buildtools)                  | [SpigotMC Official Page](https://spigotmc.org) |
 | **NeoForge**  | Download the latest or specific versions.        | [NeoForge Official Page](https://projects.neoforged.net/neoforged/neoforge)                           |
 | **Purpur**  | Download the latest or specific versions.        | [PurpurMC Official Page](https://purpurmc.org/download/purpur/)                           |
+
+---
+
+### I own said Tools/Pages/APIs etc. and want the scraping to stop!
+- The json files are automatically built every three days by workflows, which scrape the data, if you are the owner of one of those APIs/Pages/Tools and want me to remove/stop the usage/scraping of said API/Page/Tool, please contact me I will take it down without hesitation!
+- Mail: ciranuxdev
+- Host: gmail
+- Subject: "Takedown/Scraping Stop"
 
 ---
 
@@ -104,6 +104,7 @@ Uses the [Fabric API](https://meta2.fabricmc.net/) to get the latest builds.
 ---
 
 ## Future Plans
+- Add all client downloads where possible in script and json-files.
 - Implement the missing server/loader types with scripts and workflows (GitHub Actions) like neoforge and purpurmc.
 - Maybe make the buildtools-script use multiple threads to enhance the build time.
 - Automatically create a unified list containing direct download links for all Minecraft versions across all server types for the easiest access!

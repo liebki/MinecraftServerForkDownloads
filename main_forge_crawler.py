@@ -1,8 +1,13 @@
+"""Simple script to get all forge server jar direct download links using selenium."""
+
+# pylint: disable=W0718
+
 import json
+import sys
+from webdriver_manager.firefox import GeckoDriverManager
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service as FirefoxService
-from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -15,8 +20,9 @@ def save_to_json(data, filename: str):
         data (dict): The data to write to the file.
         filename (str): The name of the output file.
     """
-    with open(filename, "w") as json_file:
+    with open(file=filename, mode="w", encoding="utf-8") as json_file:
         json.dump(data, json_file, indent=4)
+
     print(f"Download links saved to {filename}")
 
 
@@ -30,6 +36,7 @@ def initialize_driver():
     try:
         options = webdriver.FirefoxOptions()
         options.add_argument("--headless")
+
         options.add_argument("--no-sandbox")
         driver = webdriver.Firefox(
             service=FirefoxService(GeckoDriverManager().install()), options=options
@@ -37,7 +44,7 @@ def initialize_driver():
         return driver
     except Exception as e:
         print(f"Error initializing the WebDriver: {e}")
-        exit(1)
+        sys.exit(1)
 
 
 def fetch_hrefs(driver):
@@ -116,6 +123,7 @@ def process_link(driver, link):
 
 
 def main():
+    """Main which executes everything."""
     result_dict = {}
 
     driver = initialize_driver()
