@@ -1,5 +1,6 @@
 {
     "server_available": {
+        "25w18a": "https://piston-data.mojang.com/v1/objects/e69d69f1817f6c52f6ad2ca73ee1ef8a6903e560/server.jar",
         "25w17a": "https://piston-data.mojang.com/v1/objects/575756f90e54e5c2cd78997dd9e3579936aa9d6d/server.jar",
         "25w16a": "https://piston-data.mojang.com/v1/objects/3d8223843a659d8ebc33459864ba02b34485ea11/server.jar",
         "25w15a": "https://piston-data.mojang.com/v1/objects/fed01fcdf4d2f37b3f847e08fd099714766533c3/server.jar",
