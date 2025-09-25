@@ -1,5 +1,7 @@
 {
     "server_available": {
+        "1.21.9-pre4": "https://piston-data.mojang.com/v1/objects/b3aeb3c37aee8d24dde8fbcdba090ccc6987f48f/server.jar",
+        "1.21.9-pre3": "https://piston-data.mojang.com/v1/objects/3ac631d2f5fb8a22591f5fbc9d24c6e44e3dc0da/server.jar",
         "1.21.9-pre2": "https://piston-data.mojang.com/v1/objects/cd046af3f42191edbcc4870f11e06e95582dbbda/server.jar",
         "1.21.9-pre1": "https://piston-data.mojang.com/v1/objects/151da8959852dfbd1b20efbad31645b95cc8ba31/server.jar",
         "25w37a": "https://piston-data.mojang.com/v1/objects/9675164bd7a8ec5a876a05ac96637c77e9d82a24/server.jar",
