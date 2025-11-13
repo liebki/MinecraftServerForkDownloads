@@ -1,4 +1,5 @@
 {
+    "25w46a": "https://meta.fabricmc.net/v2/versions/loader/25w46a/0.18.0//1.1.0/server/jar",
     "25w45a": "https://meta.fabricmc.net/v2/versions/loader/25w45a/0.18.0//1.1.0/server/jar",
     "25w44a": "https://meta.fabricmc.net/v2/versions/loader/25w44a/0.18.0//1.1.0/server/jar",
     "25w43a": "https://meta.fabricmc.net/v2/versions/loader/25w43a/0.18.0//1.1.0/server/jar",
@@ -391,6 +392,7 @@
     "18w44a": "https://meta.fabricmc.net/v2/versions/loader/18w44a/0.18.0//1.1.0/server/jar",
     "18w43c": "https://meta.fabricmc.net/v2/versions/loader/18w43c/0.18.0//1.1.0/server/jar",
     "18w43b": "https://meta.fabricmc.net/v2/versions/loader/18w43b/0.18.0//1.1.0/server/jar",
+    "25w46a_unobfuscated": "https://meta.fabricmc.net/v2/versions/loader/25w46a_unobfuscated/0.18.0//1.1.0/server/jar",
     "25w45a_unobfuscated": "https://meta.fabricmc.net/v2/versions/loader/25w45a_unobfuscated/0.18.0//1.1.0/server/jar",
     "24w14potato_original": "https://meta.fabricmc.net/v2/versions/loader/24w14potato_original/0.18.0//1.1.0/server/jar",
     "23w13a_or_b_original": "https://meta.fabricmc.net/v2/versions/loader/23w13a_or_b_original/0.18.0//1.1.0/server/jar",
