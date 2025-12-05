@@ -15,7 +15,7 @@ This repository contains various Python scripts for easy Minecraft server downlo
 | **Sponge**    | [sponge_downloads.json](sponge_downloads.json)        | N/A                                                                                                   |
 | **Forge**     | [forge_downloads.json](forge_downloads.json)          | N/A                                                                                                   |
 | **Fabric**    | [release_fabric_downloads.json](release_fabric_downloads.json) | [snapshot_fabric_downloads.json](snapshot_fabric_downloads.json)                                      |
-| **Spigot**    | [Use BuildTools](#dmca-bukkit)                  | [Use BuildTools](#dmca-bukkit)                                                                                                   |
+| **Spigot**    | [spigot_downloads.json](forge_downloads.json)                  | No snapshot versions exist                                                                                                   |
 | **NeoForge**  |  N/A                             | N/A                                                                                                   |
 | **Purpur**  |  N/A                             | N/A                                                                                                   |
 ## Official Resources to download (newest/others)
@@ -90,6 +90,22 @@ Uses the [Fabric API](https://meta2.fabricmc.net/) to get the latest builds.
 
 ---
 
+### 5. **Forge Crawler**
+Uses selenium on the forge download website to get the latest builds.
+
+#### Output:
+- Generates `forge_downloads.json` with build links for each (available) Minecraft version.
+
+---
+
+### 6. **Spigot Crawler**
+Uses selenium on the files.mcjars.app website to get the latest builds.
+
+#### Output:
+- Generates `spigot_downloads.json` with build links for each (available) Minecraft version.
+
+---
+
 ## Dependencies
 
 - **Install required Python packages**:
@@ -121,6 +137,8 @@ This repository does not host any Minecraft server files and is not affiliated w
 ## DMCA-Bukkit:
 Due to licensing issues, Spigot and CraftBukkit cannot be distributed directly. You must compile them yourself using BuildTools.
 See the stupid thing for yourself: https://github.com/github/dmca/blob/master/2014/2014-09-05-CraftBukkit.md
+
+I don't host the spigot jar files, please contact files.mcjars.app for anything about that, I just hotlink.
 
 ---
 
