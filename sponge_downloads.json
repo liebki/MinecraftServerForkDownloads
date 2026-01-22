@@ -1,6 +1,6 @@
 {
     "1.21.11-pre2": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.11-pre2-18.0.0-RC2451/spongevanilla-1.21.11-pre2-18.0.0-RC2451-universal.jar",
-    "1.21.11": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.11-18.0.0-RC2512/spongevanilla-1.21.11-18.0.0-RC2512-universal.jar",
+    "1.21.11": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.11-18.0.0-RC2522/spongevanilla-1.21.11-18.0.0-RC2522-universal.jar",
     "1.21.10": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.10-17.0.1-RC2518/spongevanilla-1.21.10-17.0.1-RC2518-universal.jar",
     "1.21.9": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.9-17.0.0-RC2374/spongevanilla-1.21.9-17.0.0-RC2374-universal.jar",
     "1.21.9-rc1": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.9-rc1-17.0.0-RC2355/spongevanilla-1.21.9-rc1-17.0.0-RC2355-universal.jar",
@@ -23,7 +23,7 @@
     "1.21.2-pre1": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.2-pre1-12.0.0-RC1828/spongevanilla-1.21.2-pre1-12.0.0-RC1828-universal.jar",
     "1.21.2": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.2-13.0.0-RC1868/spongevanilla-1.21.2-13.0.0-RC1868-universal.jar",
     "1.21.2-rc1": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.2-rc1-13.0.0-RC1855/spongevanilla-1.21.2-rc1-13.0.0-RC1855-universal.jar",
-    "1.21.1": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.11-18.0.0-RC2512/spongevanilla-1.21.11-18.0.0-RC2512-universal.jar",
+    "1.21.1": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.11-18.0.0-RC2522/spongevanilla-1.21.11-18.0.0-RC2522-universal.jar",
     "1.20.6": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.20.6-11.0.1-RC1916/spongevanilla-1.20.6-11.0.1-RC1916-universal.jar",
     "1.20.4": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.20.4-11.0.0-RC1589/spongevanilla-1.20.4-11.0.0-RC1589-universal.jar",
     "1.20.2": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.20.2-11.0.0-RC1478/spongevanilla-1.20.2-11.0.0-RC1478-universal.jar",
