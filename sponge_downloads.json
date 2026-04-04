@@ -1,4 +1,5 @@
 {
+    "26.1.1": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/26.1.1-19.0.0-RC2587/spongevanilla-26.1.1-19.0.0-RC2587-universal.jar",
     "1.21.11-pre2": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.11-pre2-18.0.0-RC2451/spongevanilla-1.21.11-pre2-18.0.0-RC2451-universal.jar",
     "1.21.11": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.11-18.0.0-RC2583/spongevanilla-1.21.11-18.0.0-RC2583-universal.jar",
     "1.21.10": "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongevanilla/1.21.10-17.0.1-RC2582/spongevanilla-1.21.10-17.0.1-RC2582-universal.jar",
